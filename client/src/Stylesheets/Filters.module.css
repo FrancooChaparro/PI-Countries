@@ -1,0 +1,76 @@
+.allFilters { 
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    background:linear-gradient(to bottom,#9336be , #8856d8);;
+}
+
+.filterContienent {
+    width: 80px;
+    font-size: 13px;
+    height: 40px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(83, 32, 117) ;
+    color: white;
+    user-select: none;
+}
+.filterActividad{
+    width: 80px;
+    height: 40px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(83, 32, 117) ;
+    color: white;
+    user-select: none;
+}
+.filterPoblacion{
+    width: 80px;
+    font-size: 12px;
+    height: 40px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(83, 32, 117) ;
+    color: white;
+    user-select: none;
+}
+
+.filterAZ { 
+    width: 80px;
+    height: 40px;
+    margin: 5px;
+
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(83, 32, 117) ;
+    color: white;
+    user-select: none;
+}
+
+
+.filterAZ:hover { 
+    color: #12f8a0;
+    opacity: 0.7;
+    cursor: pointer;
+ }
+ .filterContienent:hover { 
+    color: #12f8a0;
+    opacity: 0.7;
+    cursor: pointer;
+ }
+ .filterActividad:hover { 
+    color: #12f8a0;
+    opacity: 0.7;
+    cursor: pointer;
+ }
+ .filterPoblacion:hover { 
+    color: #12f8a0;
+    opacity: 0.7;
+    cursor: pointer;
+ }
+ .filterAZ[disabled] {
+    background-color: rgb(122, 45, 173) ;
+ }

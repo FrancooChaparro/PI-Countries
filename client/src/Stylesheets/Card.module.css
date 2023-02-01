@@ -1,0 +1,92 @@
+
+.card { 
+    background:linear-gradient(to bottom,#9336be , #8856d8);
+    border: 2px solid #4d1249;
+    /* background-color: #cc95e1; */
+    border-radius: 10px;
+    box-shadow: -1px 4px 1px 1px #4d1249;
+    width: 250px;
+    height: 410px;
+    width: 250px;
+    height: 290px;
+    user-select: none;
+    transition: all 0.7s;
+    margin: 15px;
+    padding: 15px;
+}
+.card:hover { 
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: 0.8s;
+    
+}
+
+.card img { 
+    width: 277px;
+    margin-top: -12px;
+    margin-left: -13px;
+    border-radius: 12px;
+    height: 200px;
+}
+
+.containerButton { 
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px 5px 0 0;
+}
+
+.button { 
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 25px;
+    width: 45px;
+}
+
+.button:hover { 
+    opacity: 0.8;
+}
+
+/* .data {
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+.card h2 { 
+    color: white;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 26px;
+    height: 70px;
+
+}
+
+.data h3 { 
+    color: white;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 22px;
+    height: 50px;
+    margin-top: 20px;
+} */
+
+
+.data {
+    display: flex;
+    flex-direction: column;
+}
+
+.card h2 { 
+    color: white;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 20px;
+    margin-bottom: -10px;
+}
+
+.data h3 { 
+    color: white;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 15px;
+}
+
+

@@ -1,0 +1,59 @@
+.containerBar { 
+    margin-bottom: 30px;
+    user-select: none;
+    margin-left: 0px;
+    margin-right: 10px;
+    width: 850px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    height: 50px;
+    background-color:  #8856d8;
+    margin-bottom: 85px;
+    
+   
+}
+.containerBarDark { 
+    margin-bottom: 30px;
+    user-select: none;
+     margin-left: 0px;
+     margin-right: 10px;
+    width: 850px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    height: 50px;
+    background-color:  #1a1520;
+    margin-bottom: 85px;
+    
+   
+}
+
+.SearchBar { 
+    width: 450px;
+    min-width: 250px;
+    height: 40px;
+    margin: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 18px;
+}
+
+.buttonADD { 
+    width: 80px;
+    height: 40px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 6, 46) ;
+    color: white;
+    user-select: none;
+
+}
+
+.buttonADD:hover { 
+    opacity: 0.9;
+ }

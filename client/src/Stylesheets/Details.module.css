@@ -1,0 +1,163 @@
+/* .ContainerDetails { 
+    border: 2px solid rgb(93, 2, 129);
+    margin-left: 450px;
+    margin-right: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    background:linear-gradient(to bottom,#9336be , #8856d8); 
+    box-shadow: -1px 4px 1px 1px #4d1249;
+    user-select: none;
+    width: 350px;
+    height: 540px;
+    margin-bottom: 100px; 
+} */
+
+/* .ContainerInfo {   
+display: flex;
+align-items: flex-start;
+flex-direction: column;
+margin-left: 22px;
+}
+
+.atras { 
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 25px;
+    width: 95px;
+}
+.ContainerDetails button:hover { 
+    opacity: 0.8;
+    background:linear-gradient(to bottom,#ff54cc , #8856d8); 
+    color: #4d1249;
+}
+
+.ContainerDetails img { 
+    border-radius: 8px;
+    height: 120px;
+    width: 300px;
+    margin-top: 20px;
+}
+.ContainerDetails h1 { 
+    margin-left: 50px;
+    color: white; 
+    margin: 5px;
+    font-size: 25px;
+}
+
+.ContainerButton{ 
+    display: flex;
+    justify-content: space-between;
+}
+.button {
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 25px;
+    width: 45px;
+} */
+
+ .supreme { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 550px;
+ }
+    
+ .ContainerButton button { 
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 25px;
+    width: 80px;
+ }
+.ContainerButton button:hover { 
+    opacity: 0.8;
+    background:linear-gradient(to bottom,#ff54cc , #8856d8); 
+    color: #4d1249;
+}
+
+
+.ContainerDetails { 
+    border: 2px solid rgb(93, 2, 129);
+    /* margin-left: 250px; */
+    /* margin-right: 500px; */
+    padding: 10px;
+    border-radius: 10px;
+    background:linear-gradient(to bottom,#9336be , #8856d8); 
+   /* background-color:#140f07; */
+    box-shadow: -1px 4px 1px 1px #4d1249;
+    user-select: none;
+    width: 750px;
+    height: 440px;
+    /* background: red; */
+    /* margin-bottom: 100px;  */
+}
+.ContainerButton {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ContainerData { 
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.data1 {   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    margin-left: -30px;
+    height: 280px;
+
+   
+}
+
+.ContainerImage { 
+    margin-left: -55px;  
+}
+.data1 h1{ 
+    margin-left: -55px;  
+}
+.ContainerImage img{  
+    border-radius: 50%;
+    width: 200px;
+  
+}
+
+.data2 { 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+    width: 350px;
+  
+}
+
+
+.ShowActivity {
+    display: flex;
+    justify-content: end;
+}
+
+
+.ShowActivity button { 
+    margin-right: 110px;
+    margin-top: 25px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    color: aliceblue;
+    
+}

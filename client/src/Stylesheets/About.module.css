@@ -1,0 +1,14 @@
+.About > h1  {
+    color: aliceblue;
+}
+
+.About > p  {
+    color: aliceblue;
+    
+}
+
+.About { 
+    user-select: none;
+    /* min-height: 100vh; */
+    margin-bottom: 357px
+}

@@ -1,0 +1,25 @@
+.container{ 
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #ff54cc;    */
+}
+
+.start { 
+    color: rgb(226, 206, 221);
+    background-color: rgb(100, 12, 134);
+    border: 1px solid #ff54cc;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 22px;
+    width: 95px;
+    margin-top: 15px;
+}
+
+.start:hover { 
+    opacity: 0.8;
+    background:linear-gradient(to bottom,#ff54cc , #8856d8); 
+    color: #4d1249;
+}

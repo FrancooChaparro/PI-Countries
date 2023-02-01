@@ -1,0 +1,58 @@
+.brasil { 
+  margin-top: 320px;
+  margin-left: -400px;
+}
+.flags { 
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.argentina { 
+    /* position: absolute; */
+    margin-top: 80px;
+    margin-left: -510px;
+}
+.esp{
+    margin-top: -50px;
+    margin-left: -40px;
+} 
+.rus{
+    margin-top: -100px;
+    margin-left: 610px;
+} 
+.usa{
+    margin-top: -325px;
+    margin-left: -760px;
+}
+.chi{
+    margin-top: 35px;
+    margin-left: 740px;
+}
+.mex{
+    margin-top: -205px;
+    margin-left: -760px;
+}
+.can{
+    margin-top: -155px;
+    margin-left: -790px;
+}
+.aus{
+    margin-top: 285px;
+    margin-left: 1020px;
+}
+
+.btn {
+width: 50px;
+height: 30px;
+border: none;
+border-radius: 10px;
+background-color: rgb(137, 53, 194) ;
+color: white;
+user-select: none;
+}
+
+.btn:hover { 
+    color: #12f8a0;
+    opacity: 0.7;
+    cursor: pointer;
+}
