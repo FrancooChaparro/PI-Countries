@@ -74,3 +74,20 @@
  .filterAZ[disabled] {
     background-color: rgb(122, 45, 173) ;
  }
+
+ @media screen and (max-width: 820px)  {
+    .allFilters{
+        margin-top: 120px;
+    }
+
+  }
+
+  @media screen and (max-width: 430px)  {
+
+.allFilters button { 
+    width: 45px;
+}
+.allFilters select { 
+    width: 45px;
+}
+  }

@@ -69,7 +69,7 @@ function Details() {
           </div> : <div className={styles.data2}>
             {actividad.length ?
               <div >
-                <h1 style={{"marginTop": "-150px"}}>Actividades</h1>
+                <h1 className={styles.activityh1}>Actividades</h1>
                 {actividad.map((e, index) => {
                   return  <div style={{"display": "flex", "justifyContent" : "flex-start"}} key={index} >
                             <h3 style={{"fontSize": "12px"}}>Nombre  {e.name}</h3>

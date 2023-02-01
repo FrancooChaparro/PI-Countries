@@ -98,7 +98,6 @@ export function orderByActivity(payload) {
   return async function(dispatch){
     try{ 
         let json = await axios.get(`http://localhost:3001/activitis?name=${payload}`);
-        console.log(json.data.result);
         return dispatch({
             type: ORDER_BY_ACTIVITY,
             payload: json.data.result
